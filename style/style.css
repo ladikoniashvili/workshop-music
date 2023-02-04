@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px ;
+    font-family: popin;
+    color: #000000;
+}
+@font-face {
+    font-family: popin;
+    src: url(../font/Poppins-Medium.ttf);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexic {
+    background-color: #000000;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 83px;
+}
+
+
+.heat{
+    background-image: url(../img/music-note\ 1.png);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 70px;
+    
+}
+header nav ul li{
+    color: #ffffff;
+    padding: 10px;
+    
+}
+header nav ul li{
+    padding: 10px;
+}
+header nav  ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+main {
+    background-color: #ffffff;
+    
+}
+.hits{
+    width: 100%;
+    height: 28px;
+    padding: 70px;
+    font-size: 24px;
+
+    
+    
+}
+/* -------------------------------- aq iwyeba article */
+
+.articler{
+    width: 304px;
+    height: 270px;
+    /* border: solid #010101; */
+    margin: 50px 70px;
+    
+    
+    
+}
+.articler section{
+    border: solid #010101;
+    
+    
+}
+
+.flame{
+
+    background-color: #ffffff;
+    width: 100%;
+    height: 135px;
+    position: relative;
+    flex-direction: column-reverse;
+    
+    
+}
+.articler section:hover{
+    box-shadow: 0 0 10px #a49b9b;
+
+}
+.flame1{
+    background-image: url(../img/like\ 1.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.flame1:hover{
+    width: 50px;
+    height: 50px; 
+    background-image: url(../img/like\ 2.png);  
+    cursor: pointer;
+}
+.flame2{
+    background-image: url(../img/sound\ 1.png);
+    width: 100%;
+    height: 65px;
+    background-repeat: repeat-x;
+    
+    
+}
+.track{
+    padding: 10px;
+}
+.track2{
+    padding: 10px;
+}
+.track3{
+    margin-top: 10px;
+    
+}
+.track3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.boxt{
+    flex-wrap: wrap;
+}
+
+.socialmedia{
+    width: 50px;
+    height: 100px;
+    background-color: #faf7f7;
+    position: fixed;
+    top: 280px;
+    right: 0;
+}
+.fb{
+    background-image: url(../img/fb\ 1.png);
+    width: 50px;
+    height: 50px;
+}
+.inst{
+    background-image: url(../img/instagram\ 1.png);
+    width: 50px;
+    height: 50px;
+}
+.fb:hover{
+    background-image: url(../img/facebook.png);
+    cursor: pointer;
+}
+.inst:hover{
+    background-image: url(../img/instagram.png);
+    cursor: pointer;
+    
+}
+
+
+/* aq iwyeba track .html--------
+ */
+ .rative{
+    width: 400px;
+    height: 360px;
+    
+    padding: 10px;
+ }
+ .rative h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+
+ }
+ .father{
+    width: 250px;
+    height: 20px;
+    
+    display: flex;
+    padding: 12px;
+ }
+ .sons1{
+    width: 80%;
+    height: 20px;
+ }
+ .sons2{
+    width: 20%;
+    height: 20px;
+    
+ }
+ .marto{
+    justify-content: flex-start;
+ }
+ .flame5{
+    
+    width: 260px;
+    position: absolute;
+    bottom: 170px;
+    left: 570px;  
+    
+ }
+ .radioactive{
+    
+    margin-top: 130px;
+    margin-left: 70px;
+    
+ }
+
+
+
+ /* futeri------ */
+ .random{
+    background-color: #000000;
+    width: 100%;
+    height: 354px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+ 
+ }
+ .heat3{
+    background-image: url(../img/music-note\ 1.png);
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+ }
+ .random nav ul li{
+    color: #ffffff;
+    font-size: 16px;
+ }
+ .random nav ul li{
+    width: 120px;
+    height: 30px;
+    
+ }
+ .random nav:nth-child(2){
+    text-align: center;
+ }
+ .random nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+    
+    
+ 
+
+
+ 
+
+
+
+
+
