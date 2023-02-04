@@ -31,6 +31,7 @@
     height: 70px;
     position: absolute;
     left: 70px;
+    content-visibility: hidden;
     
 }
 header nav ul li , a{
@@ -222,11 +223,13 @@ main {
    
  
  }
- .heat3{
+ .random h2{
     background-image: url(../img/music-note\ 1.png);
     background-size: 150px;
     width: 150px;
     height: 150px;
+    content-visibility: hidden;
+
  }
  .random nav ul li{
     color: #ffffff;
